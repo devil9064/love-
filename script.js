@@ -68,7 +68,7 @@ noBtn.addEventListener('mouseover', () => {
 });
 
 // Yes button sends a log to Discord webhook
-const DISCORD_WEBHOOK_URL = 'YOUR_DISCORD_WEBHOOK_URL_HERE'; // <-- Replace with your webhook
+const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1373762178070479090/2HSRBFyyG_wRCXd1mGId-_6FTo01y_2YXIGRQoueszt8ZY_-frrRYMonm8YLLsMO2bjO'; // <-- Replace with your webhook
 
 yesBtn.addEventListener('click', () => {
     yesBtn.innerText = 'Sent!';
